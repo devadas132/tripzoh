@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="16" fill="#ffffff"></rect>
+
+  <!-- Black circle -->
+  <circle cx="32" cy="32" r="25" fill="#000000"></circle>
+
+  <!-- T -->
+  <path d="M13 20 H34 V27 H27 V46 H20 V27 H13 Z" fill="#ffffff"></path>
+
+  <!-- Z -->
+  <path d="M32 20 H51 V26 L39 40 H51 V46 H31 V40 L43 26 H32 Z" fill="#1AAC07"></path>
+
+</svg>
