@@ -10,6 +10,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Plus Jakarta Sans Font -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <script>
 tailwind.config = {
   theme: {
@@ -46,7 +47,7 @@ tailwind.config = {
       <!-- Logo -->
       <a href="#" class="flex items-center gap-2.5">
         <div class="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white font-extrabold text-xl shadow-md shadow-brand-600/20">
-          T
+          TZ
         </div>
         <span class="text-xl font-bold tracking-tight text-slate-900">Trip<span class="text-brand-600">Zoh</span></span>
       </a>
@@ -311,7 +312,7 @@ tailwind.config = {
       <div>
         <div class="flex items-center gap-3 mb-5">
           <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center font-bold text-lg">
-            T
+            TZ
           </div>
           <div>
             <h3 class="text-xl font-bold text-white">TripZoh</h3>
@@ -325,15 +326,17 @@ tailwind.config = {
         </p>
 
         <div class="flex gap-3 mt-6">
-          <a href="#" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-brand-600 flex items-center justify-center transition">
-            🌐
-          </a>
-          <a href="#" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-brand-600 flex items-center justify-center transition">
-            💼
-          </a>
-          <a href="#" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-brand-600 flex items-center justify-center transition">
-            ✉️
-          </a>
+<a href="https://yourwebsite.com" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-brand-600 flex items-center justify-center transition">
+  <i class="fa-solid fa-globe text-white"></i>
+</a>
+
+<a href="https://linkedin.com/in/yourprofile" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-brand-600 flex items-center justify-center transition">
+  <i class="fa-brands fa-linkedin-in text-white"></i>
+</a>
+
+<a href="mailto:you@example.com" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-brand-600 flex items-center justify-center transition">
+  <i class="fa-solid fa-envelope text-white"></i>
+</a>
         </div>
       </div>
 
@@ -368,25 +371,31 @@ tailwind.config = {
         <h4 class="text-white font-semibold mb-5">Contact</h4>
 
         <ul class="space-y-4 text-sm">
-          <li class="flex items-start gap-3">
-            <span class="text-brand-500">📍</span>
-            <span>123 Business Avenue,<br>New York, NY 10001</span>
-          </li>
+  <li class="flex items-start gap-3">
+    <span class="text-brand-500 mt-1">
+      <i class="fa-solid fa-location-dot"></i>
+    </span>
+    <span>123 Business Avenue,<br>New York, NY 10001</span>
+  </li>
 
-          <li class="flex items-center gap-3">
-            <span class="text-brand-500">📞</span>
-            <a href="tel:+15551234567" class="hover:text-brand-500 transition">
-              +1 (555) 123-4567
-            </a>
-          </li>
+  <li class="flex items-center gap-3">
+    <span class="text-brand-500">
+      <i class="fa-solid fa-phone"></i>
+    </span>
+    <a href="tel:+15551234567" class="hover:text-brand-500 transition">
+      +1 (555) 123-4567
+    </a>
+  </li>
 
-          <li class="flex items-center gap-3">
-            <span class="text-brand-500">✉️</span>
-            <a href="mailto:hello@tripzoh.com" class="hover:text-brand-500 transition">
-              hello@tripzoh.com
-            </a>
-          </li>
-        </ul>
+  <li class="flex items-center gap-3">
+    <span class="text-brand-500">
+      <i class="fa-solid fa-envelope"></i>
+    </span>
+    <a href="mailto:hello@tripzoh.com" class="hover:text-brand-500 transition">
+      hello@tripzoh.com
+    </a>
+  </li>
+</ul>
       </div>
 
     </div>
