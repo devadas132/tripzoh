@@ -1,0 +1,33 @@
+            ledger
+                custemer managemt
+                supplery managemt
+
+            accounts
+                cash
+                check
+                bank
+                gateway
+
+            invoice      
+                tickting
+                misch
+                tour
+                umrha
+
+            payment
+                custmerpayment
+                supplerpayment
+                expense payment
+
+            receipt
+
+            reports
+
+<!-- invoice -->
+<!-- payment -->
+
+<!-- repcit
+reports -->
+
+<!-- custemer managemt
+supplery managemt -->

@@ -237,92 +237,122 @@
 </head>
 <body>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-        <div class="brand">
-            <i class="fa-solid => fa-plane-departure"></i>
-            <span>Tripzoh</span>
-        </div>
+<!-- SIDEBAR -->
+<aside class="sidebar">
+    <div class="brand">
+        <i class="fa-solid fa-plane-departure"></i>
+        <span>Tripzoh</span>
+    </div>
 
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a href="#" class="nav-link active">
-                    <div class="left-content">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span>Dashboard</span>
-                    </div>
-                </a>
-            </li>
-
-            <!-- Bookings Sub-list -->
-            <li class="nav-item">
-                <div class="nav-link dropdown-btn">
-                    <div class="left-content">
-                        <i class="fa-solid fa-ticket"></i>
-                        <span>Bookings</span>
-                    </div>
-                    <i class="fa-solid fa-chevron-right arrow"></i>
+    <ul class="nav-list">
+        <!-- Dashboard -->
+        <li class="nav-item">
+            <a href="#" class="nav-link active">
+                <div class="left-content">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Dashboard</span>
                 </div>
-                <ul class="sub-menu">
-                    <li><a href="#">Flight Tickets</a></li>
-                    <li><a href="#">Hotel Reservations</a></li>
-                    <li><a href="#">Bus / Cab Rental</a></li>
-                    <li><a href="#">Holiday Packages</a></li>
-                </ul>
-            </li>
+            </a>
+        </li>
 
-            <!-- Accounting Sub-list -->
-            <li class="nav-item">
-                <div class="nav-link dropdown-btn">
-                    <div class="left-content">
-                        <i class="fa-solid fa-receipt"></i>
-                        <span>Accounting</span>
-                    </div>
-                    <i class="fa-solid fa-chevron-right arrow"></i>
+        <!-- Ledger Sub-list -->
+        <li class="nav-item">
+            <div class="nav-link dropdown-btn">
+                <div class="left-content">
+                    <i class="fa-solid fa-book"></i>
+                    <span>Ledger</span>
                 </div>
-                <ul class="sub-menu">
-                    <li><a href="#">Create Invoice</a></li>
-                    <li><a href="#">Payments Received</a></li>
-                    <li><a href="#">Vendor Bills</a></li>
-                    <li><a href="#">Expense Tracker</a></li>
-                </ul>
-            </li>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a href="#"><i class="fa-solid fa-users"></i> Customer Management</a></li>
+                <li><a href="#"><i class="fa-solid fa-truck-field"></i> Supplier Management</a></li>
+            </ul>
+        </li>
 
-            <!-- Reports Sub-list -->
-            <li class="nav-item">
-                <div class="nav-link dropdown-btn">
-                    <div class="left-content">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                        <span>Reports</span>
-                    </div>
-                    <i class="fa-solid fa-chevron-right arrow"></i>
+        <!-- Accounts Sub-list -->
+        <li class="nav-item">
+            <div class="nav-link dropdown-btn">
+                <div class="left-content">
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Accounts</span>
                 </div>
-                <ul class="sub-menu">
-                    <li><a href="#">Profit & Loss</a></li>
-                    <li><a href="#">Sales Summary</a></li>
-                    <li><a href="#">GST / Tax Report</a></li>
-                </ul>
-            </li>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Cash</a></li>
+                <li><a href="#"><i class="fa-solid fa-building-columns"></i> Bank</a></li>
+                <li><a href="#"><i class="fa-solid fa-money-check"></i> Cheque</a></li>
+                <li><a href="#"><i class="fa-solid fa-credit-card"></i> Payment Gateway</a></li>
+            </ul>
+        </li>
 
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <div class="left-content">
-                        <i class="fa-solid fa-users"></i>
-                        <span>Customers</span>
-                    </div>
-                </a>
-            </li>
+        <!-- Invoice Sub-list -->
+        <li class="nav-item">
+            <div class="nav-link dropdown-btn">
+                <div class="left-content">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <span>Invoice</span>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+            
+            <ul class="sub-menu">
+                <li><a href="#"><i class="fa-solid fa-ticket"></i> Ticketing</a></li>
+                <li><a href="#"><i class="fa-solid fa-cubes"></i> Misc</a></li>
+                <li><a href="#"><i class="fa-solid fa-route"></i> Tour</a></li>
+                <li><a href="#"><i class="fa-solid fa-kaaba"></i> Umrah</a></li>
+            </ul>
+        </li>
 
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <div class="left-content">
-                        <i class="fa-solid fa-gear"></i>
-                        <span>Settings</span>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </aside>
+        <!-- Payment Sub-list -->
+        <li class="nav-item">
+            <div class="nav-link dropdown-btn">
+                <div class="left-content">
+                    <i class="fa-solid fa-money-bill-transfer"></i>
+                    <span>Payment</span>
+                </div>
+                <i class="fa-solid fa-chevron-right arrow"></i>
+            </div>
+            
+            <ul class="sub-menu">
+                <li><a href="#"><i class="fa-solid fa-user-check"></i> Customer Payment</a></li>
+                <li><a href="#"><i class="fa-solid fa-hand-holding-dollar"></i> Supplier Payment</a></li>
+                <li><a href="#"><i class="fa-solid fa-receipt"></i> Expense Payment</a></li>
+            </ul>
+        </li>
+
+        <!-- Receipt -->
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <div class="left-content">
+                    <i class="fa-solid fa-receipt"></i>
+                    <span>Receipt</span>
+                </div>
+            </a>
+        </li>
+        
+        <!-- Report -->
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <div class="left-content">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>Report</span>
+                </div>
+            </a>
+        </li>
+
+        <!-- Settings -->
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <div class="left-content">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </div>
+            </a>
+        </li>
+    </ul>
+</aside>
 
     <!-- MAIN CONTENT AREA -->
     <main class="main-content">
